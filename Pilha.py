@@ -19,7 +19,7 @@ class Pilha:
     def imprimirLivros(self):
         txt = ""
         if self.topo == None:
-            txt = "A Fila de livros está vazia!"
+            txt = "A Pilha de livros está vazia!"
         else:
             aux = self.topo
             txt = "LISTA DE LIVROS: \n"
@@ -34,7 +34,7 @@ class Pilha:
 
     def removerLivro(self):
         if self.topo == None:
-            print("Não é possível remover, pois a Fila está vazia!\n")
+            print("Não é possível remover, pois a Pilha está vazia!\n")
         else:
             aux = self.topo
             self.topo = aux.proximo
